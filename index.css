@@ -1,0 +1,394 @@
+ html {
+     scroll-behavior: smooth;
+ }
+
+ ::-webkit-scrollbar {
+     width: 5px;
+ }
+
+ ::-webkit-scrollbar-track {
+     background-color: white;
+ }
+
+ ::-webkit-scrollbar-thumb {
+     background-color: rgb(36, 60, 47);
+     border-radius: 20px;
+ }
+
+ * {
+     margin: 0;
+ }
+
+ .hero {
+     display: flex;
+     background-image: url("../IMAGE/ab.jpg");
+     height: 800px;
+     background-size: cover;
+     background-position: center;
+
+ }
+
+ a img {
+     width: 30px;
+     height: 30px;
+
+ }
+
+ .navbar-brand {
+     padding-left: 50px;
+     color: white;
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .navbar-brand:hover {
+     color: white;
+ }
+
+ .hero .nav-link {
+     color: #fff;
+     padding-left: 200px;
+ }
+
+ .main {
+     margin-top: 170px;
+ }
+
+ .text {
+     position: relative;
+     top: 50px;
+ }
+
+ .h1 {
+     color: rgba(255, 255, 255, 0.7);
+
+ }
+
+.hero hr {
+     width: 60px;
+     background-color: rgba(255, 255, 255, 1);
+     border: 1px solid rgba(255, 255, 255, 1);
+     margin-left: 30px;
+ }
+
+ .hr1 {
+     margin-right: 30px;
+ }
+
+ .main h1 {
+     color: white;
+     font-size: 70px;
+ }
+
+ p {
+     color: rgba(255, 255, 255, 0.7);
+ }
+
+ .logos {
+     background: rgba(246, 251, 249, 1);
+     
+ }
+
+ .col-7 img {
+     width: 40px;
+     height: 40px;
+ }
+
+ .col-5 h1 {
+     color: rgb(36, 60, 47);
+ }
+
+ .col-5 p {
+     font-size: 20px;
+     color: black;
+ }
+
+ .col-7 h1 {
+     font-size: 30px;
+ }
+
+ .col-7 p {
+     font-size: 20px;
+     color: black;
+ }
+
+ .text {
+     text-decoration: underline;
+     font-weight: 500;
+     font-size: 18px;
+     color: rgba(163, 185, 56, 1);
+ }
+
+ .text:hover {
+     color: rgba(163, 185, 56, 1);
+ }
+
+ .see img {
+     position: relative;
+     top: 50px;
+     left: 10px;
+ }
+ @media (max-width:1199px) {
+    .see img{
+        position: relative;
+        top: 50px;
+        left: 10px;
+    }
+    
+ }
+
+ .image {
+     background: url("/assets/IMAGE/Group\ 1.png");
+     height: 300px;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .image a {
+     position: absolute;
+     right: 100px;
+     top: 120px;
+     font-size: 60px;
+ }
+  @media (max-width:1199px) {
+   .image a{
+    position: absolute;
+    right: 100px;
+    top: 120px;
+    font-size: 50px;
+   }
+ } 
+
+ .image a img {
+     width: 50px;
+     height: 50px;
+ }
+
+ .image a:hover {
+     color: white;
+     text-decoration: none;
+ }
+
+ .reach {
+     font-size: 45px;
+     font-weight: 700;
+     color: rgb(36, 60, 47);
+ }
+
+ .Using {
+     font-size: 20px;
+ }
+
+ .SocialMedia .row button {
+     background-color: rgba(163, 185, 56, 1);
+     border: 1px solid rgba(163, 185, 56, 1);
+     font-weight: 700;
+     width: 170px;
+     height: 50px;
+ }
+
+ .row button:hover {
+     background-color: rgba(163, 185, 56, 1);
+     border: 1px solid rgba(163, 185, 56, 1);
+ }
+
+ .img1 {
+     width: 70px;
+     position: absolute;
+     bottom: 260px;
+     right: 520px;
+ }
+
+ .img2 {
+     width: 100px;
+     position: absolute;
+     left: 510px;
+     bottom: 250px;
+
+ }
+
+ .img3 {
+     position: absolute;
+     right: 430px;
+     bottom: 50px;
+
+ }
+
+ .img4 {
+
+     position: absolute;
+     right: 150px;
+     bottom: 50px;
+
+ }
+
+ .img5 {
+     width: 100px;
+     position: absolute;
+     right: 510px;
+     top: 220px;
+
+ }
+
+ .img6 {
+     width: 50px;
+     position: absolute;
+     left: 200px;
+     top: 280px;
+
+ }
+
+ .img7 {
+     width: 70px;
+     position: absolute;
+     left: 510px;
+     top: 250px;
+     z-index: 9;
+ }
+
+ .img8 {
+     position: absolute;
+     left: 470px;
+     top: 120px;
+
+ }
+
+ .help {
+     background: #F6FBF9;
+     height: 520px;
+ }
+
+ .help .mt-5 {
+     color: rgb(36, 60, 47);
+     text-align: center;
+     font-weight: 800;
+ }
+
+ .help .mt-4 {
+     color: rgba(120, 132, 125, 1);
+     text-align: center;
+ }
+
+ .help .circle {
+     width: 65px;
+     height: 65px;
+     border-radius: 50%;
+     background-color: #fff;
+ }
+
+ .col-3 h3 {
+     color: rgb(36, 60, 47);
+     text-align: center;
+     font-weight: 700;
+     font-size: 20px;
+ }
+
+ .col-3 p {
+     font-size: 15px;
+     font-weight: 400;
+     color: rgb(51, 51, 51);
+ }
+
+ .line {
+     position: absolute;
+     left: -90px;
+     top: 20px;
+ }
+
+ .maincard p {
+     color: rgba(120, 132, 125, 1);
+ }
+
+ .maincard .card {
+     border: 1px solid transparent;
+ }
+
+ .maincard .btn {
+     border: 1px solid rgba(163, 185, 56, 1);
+     font-weight: 700;
+     color: rgba(163, 185, 56, 1);
+     width: 150px;
+     height: 50px;
+ }
+
+ .maincard h1 {
+     color: rgb(36, 60, 47);
+     font-weight: 700;
+     font-size: 50px;
+     justify-content: space-between;
+ }
+
+ .Subscribe {
+     background: url("/assets/IMAGE/Group\ 1.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 545px;
+     width: 1100px;
+     position: relative;
+     left: 100px;
+ }
+
+ .Subscribe .firstimg {
+     position: absolute;
+     left: -0px;
+ }
+
+ .Subscribe .secimg {
+     Width: 250px;
+     position: absolute;
+     left: 970px;
+     top: 255px;
+ }
+ 
+
+ .Subscribe h1 {
+     margin-top: 100px;
+     font-weight: 700;
+     font-family: sans-serif;
+     color: rgb(225, 230, 227);
+ }
+
+ .Subscribe a {
+     font-size: 40px;
+     color: #fff;
+     margin-left: 50px;
+
+ }
+
+ .Subscribe a:hover {
+     color: #fff;
+     text-decoration: none;
+ }
+
+ .Subscribe input {
+     width: 300px;
+     height: 60px; 
+     border-radius: 192px;
+     border: 1px solid  rgba(120, 132, 125, 1);
+     justify-content: center;
+     font-weight: 700;
+     padding-left: 30px;
+
+ }
+ .Subscribe .btn {
+    border: 1px solid rgba(163, 185, 56, 1);
+    font-weight: 600;
+    color: white;
+    background-color: rgba(163, 185, 56, 1);
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+}
+footer p{
+    color:  rgba(120, 132, 125, 1);
+}
+footer hr{
+    width: 1030px;
+    margin-left: 110px;
+}
+@media (max-width:1199px) {
+    .secimg,  .firstimg, .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .line , .Subscribe{
+        display: none;
+    }
+   
+     }
